@@ -1,0 +1,21 @@
+<html>
+
+<head>
+    <title>
+        Наши Студенты
+    </title>
+</head>
+
+<body>
+<h1>Студенты</h1>
+<ul>
+{% for i in posts %}
+<li>Имя:{{i.name}}</li>
+<li>Фамилия{{i.surname}}</li>
+<li>Возраст{{i.age}}</li>
+{% endfor %}
+</ul>
+
+</body>
+
+</html>
